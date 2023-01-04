@@ -27,3 +27,9 @@ The above code creates an env with python 3.10. This can be checked after loadin
 <code> conda info --envs </code>
 
 The above code gives a list of conda envs, with an asterisk by the active one.
+
+## Creating a conda environment from a environment.yml file
+
+<code> conda env create -f environment.yml </code>
+
+An example of a simple environment.yml file is available in this repo.
