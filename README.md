@@ -21,3 +21,9 @@ The above code loads the environment.
 The above code creates an env with python 3.10. This can be checked after loading via the following code.
 
 <code> python --version </code>
+
+## How to see what conda envs are available
+
+<code> conda info --envs </code>
+
+The above code gives a list of conda envs, with an asterisk by the active one.
